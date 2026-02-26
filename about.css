@@ -1,0 +1,23 @@
+h1 {
+  font-family: "Permanent Marker", cursive;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.personal-box {
+  border-radius: 10px;
+  padding: 16px 14px;
+}
+
+.personal {
+  background-color: var(--silver);
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 16px 16px 16px 16px;
+  border: 1px solid var(--vintage-grape);
+  border-radius: 8px;
+  text-align: center;
+}
