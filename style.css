@@ -22,7 +22,6 @@ header {
   grid-template-columns: 1fr;
   align-items: center;
   padding: 16px 16px;
-
   border-radius: 8px;
 }
 
@@ -36,11 +35,19 @@ header {
 a {
   text-decoration: none;
   color: var(--ash-grey);
-  font-size: 3rem;
   font-weight: 500;
   gap: 50px;
 }
 
 .nav a {
-  font-size: clamp(2rem, 12px, 12px);
+  font-size: clamp(1.5rem, 5vw, 3rem);
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 16px;
+  border-radius: 8px;
+  color: var(--silver);
 }
