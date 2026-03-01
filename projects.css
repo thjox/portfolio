@@ -31,7 +31,6 @@
 
 .projekt:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 .projekt::before {
@@ -81,8 +80,8 @@
 .projekt .titel {
   position: relative;
   z-index: 2;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
+  background-color: var(--mauve-shadow);
+  color: var(--silver);
   padding: 8px 12px;
   margin: 12px;
   border-radius: 4px;
