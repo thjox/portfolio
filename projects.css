@@ -24,7 +24,7 @@
   text-align: center;
   position: relative;
   height: 0;
-  padding-top: 60%; /* 16:9 aspect ratio placeholder */
+  padding-top: 60%; /
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
@@ -74,10 +74,10 @@
 }
 
 .projekt1 .projekt:nth-child(6)::before {
-  background-image: url("img/project6.jpg");
+  background-image: url("img/image.jpg");
 }
 
-/* Title overlay */
+/* Project Title  */
 .projekt .titel {
   position: relative;
   z-index: 2;
@@ -89,7 +89,6 @@
   font-weight: 500;
 }
 
-/* Responsive tweaks */
 @media screen and (max-width: 768px) {
   .projekt1 {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));

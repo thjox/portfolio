@@ -1,0 +1,14 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 50px;
+  border-radius: 8px;
+  color: var(--silver);
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 480px) {
+}

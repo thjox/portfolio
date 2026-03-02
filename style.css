@@ -40,16 +40,7 @@ a {
 }
 
 .nav a {
-  font-size: clamp(1.5rem, 5vw, 3rem);
-}
-
-.contact {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  margin: 16px;
-  border-radius: 8px;
-  color: var(--silver);
+  font-size: clamp(1.3rem, 5vw, 3rem);
 }
 
 footer {
@@ -59,4 +50,10 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 480px) {
 }
