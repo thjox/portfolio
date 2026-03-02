@@ -1,2 +1,29 @@
-Målgrupp: Framtida arbetsgivare. 
-Portfolion hittas på följande adress: ...
+# Therese Jonsson - Portfolio
+
+## 📋 Kort beskrivning
+
+En responsiv portfolio-webbplats som visar mitt arbete inom backend-utveckling. Designad med HTML5 och CSS3 med fokus på responsivitet och tillgänglighet.
+
+**Målgrupp**: Framtida arbetsgivare och rekryterare
+
+---
+
+## ✅ Kravuppfyllelse
+
+- **Struktur & semantik**: 4 HTML-sidor, semantisk HTML5 (header, nav, main, section, article, footer)
+- **Layout**: CSS Grid (projektlistan) + Flexbox (navbar, about-sektion)
+- **Responsivitet**: Mobile-first med breakpoints vid 480px och 768px
+- **Typografi & färg**: Heading-hierarki (h1-h3), god färgkontrast
+- **Tillgänglighet**: Alt-texter, labels
+- **Formulär**: Kontaktsida med name, email, message
+- **Kodvalidering**: W3C-validerad (0 errors)
+
+---
+
+## 📝 Kända brister / Att-göra
+
+- [ ] Lägg till backend för kontaktformulär
+- [ ] Publicera på Netlify
+- [ ] Lägg till JavaScript för mobile-meny
+- [ ] Fler projekt-bilder
+- [ ] Dark mode toggle
