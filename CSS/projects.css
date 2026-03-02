@@ -54,27 +54,27 @@
 
 /* Each project gets its own image */
 .projekt1 .projekt:nth-child(1)::before {
-  background-image: url("img/kott.jpg");
+  background-image: url("../img/kott.jpg");
 }
 
 .projekt1 .projekt:nth-child(2)::before {
-  background-image: url("img/gym.jpg");
+  background-image: url("../img/gym.jpg");
 }
 
 .projekt1 .projekt:nth-child(3)::before {
-  background-image: url("img/gym2.jpg");
+  background-image: url("../img/gym2.jpg");
 }
 
 .projekt1 .projekt:nth-child(4)::before {
-  background-image: url("img/beauty.jpg");
+  background-image: url("../img/beauty.jpg");
 }
 
 .projekt1 .projekt:nth-child(5)::before {
-  background-image: url("img/nordiskrevision.jpg");
+  background-image: url("../img/nordiskrevision.jpg");
 }
 
 .projekt1 .projekt:nth-child(6)::before {
-  background-image: url("img/image.jpg");
+  background-image: url("../img/image.jpg");
 }
 
 /* Project Title  */
