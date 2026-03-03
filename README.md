@@ -18,11 +18,13 @@ Kravuppfyllelse
 - Tillgänglighet: Alt-texter, labels
 - Formulär: Kontaktsida med name, email, message
 - Kodvalidering: W3C-validerad (0 errors)
+  En Warning finns vid validering av HTML-koden för "index.html" pga att det saknas headings på sidan. Detta är ok att ignorera eftersom sidan enbart innehåller en "hero" förutom navbaren.
 
 ---
 
 Kända brister / Att-göra
 
+-En Warning finns vid validering av HTML-koden för "index.html" pga att det saknas headings på sidan. Detta är ok att ignorera eftersom sidan enbart innehåller en "hero" förutom navbaren.
 -Lägg till backend för kontaktformulär
 -Publicera på Netlify
 -Lägg till JavaScript för mobil-meny

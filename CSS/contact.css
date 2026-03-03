@@ -16,12 +16,19 @@
   padding: 10px;
   border: 2px solid var(--silver);
   margin-top: 50px;
-  max-width: 300px;
+  max-width: 500px;
   color: var(--silver);
 }
 
 @media screen and (max-width: 768px) {
+  .contact {
+    max-width: 520px;
+  }
 }
 
 @media screen and (max-width: 480px) {
+  .contact {
+    max-width: 420px;
+    padding: 16px;
+  }
 }
