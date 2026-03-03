@@ -3,43 +3,82 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Therese Portfolio</title>
-    <link rel="stylesheet" href="CSS/style.css" />
+    <title>Contact • Therese Portfolio</title>
+    <link rel="stylesheet" href="css/global.css" />
   </head>
+
   <body>
     <header>
       <nav aria-label="Main menu" class="nav">
         <a href="index.html">Home</a>
         <a href="projects.html">Project</a>
         <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+        <a href="contact.html" aria-current="page">Contact</a>
       </nav>
     </header>
-    <main>
-      <h1 class="h1c">Contact me</h1>
-      <div class="form-wrapper">
+
+    <main class="contact-page">
+      <section class="contact-hero" aria-labelledby="contact-title">
+        <h1 id="contact-title" class="contact-h1">Get in touch</h1>
+        <p class="contact-subtitle">
+          Send a message and I’ll get back to you as soon as possible.
+        </p>
+      </section>
+
+      <section class="contact-card" aria-label="Message form">
         <form
           aria-label="Contact form"
           action="https://postman-echo.com/get"
           method="get"
           class="contact"
         >
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required />
-          <label for="email">Enter your email:</label>
-          <input type="email" id="email" name="email" />
-          <label id="textarea">Message:</label>
-          <textarea
-            aria-label="Message area"
-            name="message"
-            rows="10"
-            cols="20"
-          >
-          </textarea>
-          <input type="submit" value="Send" formtarget="_blank" />
+          <div class="field">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              autocomplete="name"
+              placeholder="Your name"
+            />
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              autocomplete="email"
+              inputmode="email"
+              placeholder="you@example.com"
+            />
+            <p class="hint" id="email-hint">I’ll only use this to reply.</p>
+          </div>
+
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              required
+              minlength="10"
+              placeholder="What would you like to talk about?"
+            ></textarea>
+          </div>
+
+          <div class="actions">
+            <button type="submit" class="btn-primary">Send message</button>
+            <p class="privacy-note">
+              By sending, you agree to be contacted back.
+            </p>
+          </div>
         </form>
-      </div>
+      </section>
     </main>
+
     <footer>© 2026 THJOX. All rights reserved.</footer>
   </body>
 </html>

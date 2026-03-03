@@ -6,6 +6,8 @@ En responsiv portfolio-webbplats som visar mitt arbete inom backend-utveckling.
 
 Målgrupp: Framtida arbetsgivare och rekryterare
 
+Portfolion finns här: https://theresejonssonportfolio.netlify.app/
+
 ---
 
 Kravuppfyllelse
@@ -18,13 +20,12 @@ Kravuppfyllelse
 - Tillgänglighet: Alt-texter, labels
 - Formulär: Kontaktsida med name, email, message
 - Kodvalidering: W3C-validerad (0 errors)
-  En Warning finns vid validering av HTML-koden för "index.html" pga att det saknas headings på sidan. Detta är ok att ignorera eftersom sidan enbart innehåller en "hero" förutom navbaren.
 
 ---
 
 Kända brister / Att-göra
 
--En Warning finns vid validering av HTML-koden för "index.html" pga att det saknas headings på sidan. Detta är ok att ignorera eftersom sidan enbart innehåller en "hero" förutom navbaren.
+-Error och Warning finns när CSS-filerna valideras pga. att jag använder var() för färger och detta kan inte W3C CSS validatorn hantera, därför kan errors och warnings ignoreras.
 -Lägg till backend för kontaktformulär
 -Publicera på Netlify
 -Lägg till JavaScript för mobil-meny
