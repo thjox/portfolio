@@ -1,3 +1,10 @@
+.h1p {
+  font-family: "Permanent Marker", cursive;
+  display: flex;
+  justify-content: center;
+  color: var(--silver);
+}
+
 .projekt-lista {
   border-radius: 10px;
   padding: 16px;
@@ -24,7 +31,7 @@
   text-align: center;
   position: relative;
   height: 0;
-  padding-top: 60%; /
+  padding-top: 60%;
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
@@ -54,35 +61,35 @@
 
 /* Each project gets its own image */
 .projekt1 .projekt:nth-child(1)::before {
-  background-image: url("../img/kott.jpg");
+  background-image: url("../assets/kott.jpg");
 }
 
 .projekt1 .projekt:nth-child(2)::before {
-  background-image: url("../img/gym.jpg");
+  background-image: url("../assets/gym.jpg");
 }
 
 .projekt1 .projekt:nth-child(3)::before {
-  background-image: url("../img/gym2.jpg");
+  background-image: url("../assets/gym2.jpg");
 }
 
 .projekt1 .projekt:nth-child(4)::before {
-  background-image: url("../img/beauty.jpg");
+  background-image: url("../assets/beauty.jpg");
 }
 
 .projekt1 .projekt:nth-child(5)::before {
-  background-image: url("../img/nordiskrevision.jpg");
+  background-image: url("../assets/nordiskrevision.jpg");
 }
 
 .projekt1 .projekt:nth-child(6)::before {
-  background-image: url("../img/image.jpg");
+  background-image: url("../assets/image.jpg");
 }
 
 /* Project Title  */
 .projekt .titel {
   position: relative;
   z-index: 2;
-  background-color: var(--mauve-shadow);
-  color: var(--silver);
+  background-color: var(--midnight-violet);
+  color: var(--ash-grey);
   padding: 8px 12px;
   margin: 12px;
   border-radius: 4px;

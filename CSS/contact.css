@@ -1,9 +1,22 @@
-.contact {
+.h1c {
+  font-family: "Permanent Marker", cursive;
   display: flex;
   justify-content: center;
+  color: var(--silver);
+}
+
+.form-wrapper {
+  display: grid;
+  place-items: center;
+}
+
+.contact {
+  display: grid;
+  justify-content: center;
   padding: 10px;
+  border: 2px solid var(--silver);
   margin-top: 50px;
-  border-radius: 8px;
+  max-width: 300px;
   color: var(--silver);
 }
 

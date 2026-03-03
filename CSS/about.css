@@ -1,16 +1,15 @@
-h1 {
+.h1a {
   font-family: "Permanent Marker", cursive;
   display: flex;
   justify-content: left;
 }
 
 .personal-box {
-  border-radius: 10px;
-
-  padding: 16px 14px;
-  margin-top: 50px;
   display: flex;
   justify-content: center;
+  border-radius: 10px;
+  padding: 16px 14px;
+  margin-top: 50px;
 }
 
 .personal {
@@ -25,6 +24,10 @@ h1 {
   border: 1px solid var(--vintage-grape);
   border-radius: 8px;
   text-align: left;
+}
+
+.me {
+  max-width: 300px;
 }
 
 @media screen and (max-width: 768px) {
